@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MarketConnectors.Kalshi/MarketConnectors.Kalshi.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MarketConnectors.Kalshi.Tests/MarketConnectors.Kalshi.Tests.csproj" />
+  </Folder>
+  <Project Path="../VisualHFT/VisualHFT.Commons/VisualHFT.Commons.csproj" />
+</Solution>

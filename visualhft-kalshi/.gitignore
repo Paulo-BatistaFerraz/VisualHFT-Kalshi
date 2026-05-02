@@ -1,0 +1,24 @@
+# .NET build outputs
+bin/
+obj/
+*.user
+*.suo
+
+# Local Visual Studio cache
+.vs/
+.idea/
+.vscode/
+
+# Secrets — never commit
+keys/
+*.pem
+*.key
+appsettings.Local.json
+
+# Coverage / test
+TestResults/
+coverage/
+*.coverage
+
+# Sibling VisualHFT clone (keep our repo focused)
+../VisualHFT/

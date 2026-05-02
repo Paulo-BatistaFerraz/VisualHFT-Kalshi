@@ -1,0 +1,45 @@
+# --- Build outputs ---
+**/bin/
+**/obj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/x86/
+
+# --- IDE caches ---
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.userprefs
+
+# --- Logs / coverage ---
+**/logs/
+*.log
+debug.log
+TestResults/
+coverage/
+*.coverage
+
+# --- Secrets — never commit ---
+keys/
+*.pem
+*.key
+*.pfx
+*.p12
+appsettings.Local.json
+**/keys/config.json
+
+# --- Build dependency: OxyPlot is cloned alongside VisualHFT/ ---
+# (See top-level README.md for setup.) Excluded from this repo so the
+# upstream remains the source of truth.
+/oxyplot/
+
+# --- OS / misc ---
+Thumbs.db
+.DS_Store
+*~
+~$*
