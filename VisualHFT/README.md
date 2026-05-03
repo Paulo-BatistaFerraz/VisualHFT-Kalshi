@@ -28,7 +28,7 @@ We are open to hearing from the community to add more features. Make sure you op
 **VisualHFT** is an open‑source desktop application for real‑time market microstructure analysis. Built in C# using WPF, it renders the limit‑order book, trades and strategy exposures from multiple venues so traders and quants can observe order‑flow dynamics and algorithmic behaviour. 
 
 The platform emphasises a modular plug‑in architecture – new market‑connectors and analytics can be added without modifying the core.
-Learn more about **VisualHFT**'s architecture [here](https://visualhft.github.io/VisualHFT/system-architecture.html)
+Learn more about **VisualHFT**'s architecture in [`docs/system-architecture.md`](docs/system-architecture.md) (or the upstream interactive version [here](https://visualhft.github.io/VisualHFT/system-architecture.html)).
 
 ![Limit Order Book Visualization](https://github.com/silahian/VisualHFT/blob/master/docImages/LOB_imbalances_2.gif)
 
